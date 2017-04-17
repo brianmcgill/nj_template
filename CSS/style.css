@@ -1,9 +1,5 @@
 
-
-p {
-    margin: 10px 0px 5px 0px;
-  }
-
+/*TEMPLATE CSS*/
 
 .topper {
   position: absolute;
@@ -12,58 +8,120 @@ p {
   width: 100%;
   height: 40px;
   background-color: #ed1c24;
+  padding-bottom: 5px;
+  box-shadow: 0px 4px 2px #ddd;
 }
 
 .flag {
   position: relative;
   height: 30px;
   margin: 5px auto;
-  width: 720px;
+  padding: 0 5px;
+  max-width: 750px;
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#container {
+.content-wrapper {
   position: relative;
+  max-width: 990px;
+  margin: 55px auto 0;
+  padding: 20px 5px 0;
+
 }
 
-.text{
-  position: absolute;
-  width: 210px;
-  font-size: 14px;
-  color: #000;
+.clearfix:before, .clearfix:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  zoom: 1;
+}
+
+.text-container {
+  position: relative;
+  max-width: 750px;
+  margin: 55px auto 0;
+  padding: 20px 5px 0;
+
+}
+
+h1 {
+  font-family: 'Freight Big', serif;
+  font-size: 70px;
+  line-height: 1;
+  font-weight: 900;
+  letter-spacing: -0.03em;
   text-align: center;
-  z-index: -10;
+  margin: 0;
+
 }
 
-.hed{
-  font-size: 18px;
-  font-weight: bolder;
-  color: #000;
-  z-index: -10;
-  margin-bottom: 25px;
+h2 {
+  font-size: 25px;
+  font-weight: 300;
+  line-height: 1.2;
+  margin-top: 20px;
+  text-align: center;
 }
 
-.number{
-  font-size: 38px;
-  font-weight: bolder;
-  color: red;
-  z-index: -10;
+p {
+  display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+  }
+
+.article-body {
+  margin-top: 25px;
 }
+
+.article-body p {
+  font-family: 'Georgia', sans-serif;
+  font-size: 20px;
+  line-height: 1.75;
+  text-align: justify;
+  margin: 0 0 10px;
+  color: #333;
+}
+
+.author {
+  font-family: 'Freight Big', serif;
+  font-size: 25px;
+  font-weight: 900;
+  line-height: 1,2;
+  width: 100%;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.author a {  color: #333; }
+
+a:hover {
+    color: #ED1C24;
+}
+
+.pub-date {
+  font-family: "Freight-Sans", sans-serif;
+  color: #999;
+  font-size: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #999;
+  line-height: 1.4285;
+
+}
+
+
+
+
+
 
 .tooltip {
 	position: absolute;
@@ -94,12 +152,5 @@ p {
   fill: #FAAC1A;
   stroke: #ED1C24;
   stroke-width: 0;
-}
-
-.combobox-container {
-  position: relative;
-  left:25px; 
-  top:0px;
-  padding: 20;
 }
 
