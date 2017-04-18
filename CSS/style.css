@@ -175,6 +175,8 @@ a:hover {  color: #ED1C24; }
   .flag { max-width: 150px;}
   .flag img { height: 20px;}
 
+  .socialBox { display: none; }
+
 
 }
 
