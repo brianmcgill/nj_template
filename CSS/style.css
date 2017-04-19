@@ -174,7 +174,6 @@ a:hover, footer a:hover {  color: #ED1C24; }
   position: relative;
   width: 100%;
   background-color: #999;
-  color: #fff;
   overflow: hidden;
   font-size: 13px;
   letter-spacing: 1px;
@@ -183,7 +182,7 @@ a:hover, footer a:hover {  color: #ED1C24; }
   margin-top: 20px;
 }
 
-.footer a { color: #c2c2c2; font-weight: lighter;}
+.footer a { color: #eee; font-weight: lighter;}
 
 .footer ul {
   border-left: 1px solid #c2c2c2;
